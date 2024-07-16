@@ -1,0 +1,25 @@
+{
+    "name": "samuelnitsche/better-share",
+    "description": "Better sharing for Laravel projects",
+    "autoload": {
+        "psr-4": {
+            "SamuelNitsche\\BetterShare\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samuel Nitsche",
+            "email": "mail@samynitsche.de"
+        }
+    ],
+    "require": {
+        "spatie/url": "^2.4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SamuelNitsche\\BetterShare\\BetterShareServiceProvider"
+            ]
+        }
+    }
+}

@@ -13,7 +13,7 @@ composer require samuelnitsche/better-share
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --provider="SamuelNitsche\BetterShare\BetterShareServiceProvider" --tag="better-share-config"
+php artisan vendor:publish --provider="SamuelNitsche\BetterShare\BetterShareServiceProvider" --tag="config"
 ```
 
 ## Requirements
